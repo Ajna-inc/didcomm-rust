@@ -48,10 +48,10 @@ version = '1.0'
 features = ['derive']
 
 [dependencies.askar-crypto]
-version = '0.2'
-features = ['std']
+version = '0.4'
+features = ['std', 'alloc']
 git = 'https://github.com/hyperledger/aries-askar'
-rev = '4f29d43d584c4a1f1f982c4511824421aeccd2db'
+branch = 'main'
 
 [dependencies.uuid]
 version = "0.8"
