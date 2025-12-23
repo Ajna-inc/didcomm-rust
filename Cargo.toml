@@ -55,7 +55,11 @@ branch = 'main'
 
 [dependencies.uuid]
 version = "0.8"
-features = ["v4"]
+features = ["v4", "wasm-bindgen"]
+
+[dependencies.getrandom]
+version = "0.2"
+features = ["js"]
 
 [dev-dependencies]
 lazy_static = '1.4.0'
